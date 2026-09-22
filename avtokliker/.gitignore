@@ -19,3 +19,6 @@ venv/
 curl/
 storage-state*.json
 storage-state*.tmp
+seen.json
+alerts-state.json
+browsers/

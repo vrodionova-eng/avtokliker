@@ -1,0 +1,38 @@
+# Local editor settings and runtimes
+.idea/
+.vscode/
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+
+# Credentials anywhere in the repository
+.env
+.env.*
+!.env.example
+!.env.sample
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.github-avtokliker-credentials
+storage-state*.json
+storage-state*.tmp
+cookies*.json
+browser-profile/
+
+# Browser captures may contain session tokens and client data
+*.har
+trace*.zip
+diagnostic*.png
+diagnostic*.html
+diagnostics/
+screenshots/
+playwright-report/
+test-results/
+*.log
+
